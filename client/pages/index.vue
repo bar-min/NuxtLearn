@@ -2,7 +2,7 @@
 
 <template>
   <div class="home-page">
-    <h1>Hello, Rivendell!</h1>
+    <h1>Hello, Rivendell</h1>
   </div>
 </template>
 
