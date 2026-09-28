@@ -1,7 +1,7 @@
 {
-  "name": "NuxtLearn",
-  "type": "module",
+  "name": "client",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -10,8 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "nuxt": "^4.5.2",
-    "vue": "^3.5.43",
-    "vue-router": "^5.3.1"
+    "nuxt": "^3.21.11",
+    "vue": "^3.5.40",
+    "vue-router": "^5.2.0"
   }
 }

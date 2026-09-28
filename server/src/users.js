@@ -6,7 +6,7 @@ const router = Router()
 // GET api/users - список всех
 router.get('/', async (req, res) => {
     try {
-        const { rows } = await pool.query('SELECT id, name, name, created_at FROM users ORDER BY id')
+        const { rows } = await pool.query('SELECT id, name, email, created_at FROM users ORDER BY id')
         res.json(rows)
     } catch (err) {
         console.error(err)
