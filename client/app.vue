@@ -1,12 +1,10 @@
 <script setup lang="ts">
-console.log('123')
 </script>
 
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>  
 </template>
 
-<style></style>
+<style scoped lang="scss"></style>
