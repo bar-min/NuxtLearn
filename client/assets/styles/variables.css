@@ -1,0 +1,10 @@
+:root {
+  --color-black: hsla(0, 0%, 11%, 1);
+  --color-white: hsla(0, 0%, 100%, 1);
+  --color-blue: hsl(208, 56%, 45%);
+  --color-orange: #ff7715;
+  --color-grey: #808080;
+  --color-red: #e60000;
+
+  --font-family: 'Roboto', sans-serif;
+}

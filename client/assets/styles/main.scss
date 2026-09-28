@@ -1,0 +1,19 @@
+// Null-styles
+@use "./null.scss";
+
+// Variables
+@use "./variables.css";
+
+body {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+#app {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f3f3f3;
+  color: var(--color-black);
+}
